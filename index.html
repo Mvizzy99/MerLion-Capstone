@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Texas Covid Map</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+    </head>
+    <body>
+        <header>
+            <h1>Texas Covid Map</h1>
+            <h3>By <a href="http://people.tamu.edu/~mdvisentine/">Matthew Visentine</a></h3>
+            <p>A map generator displaying how many new COVID-19 cases were officially recorded in all Texas counties on a given day</p>
+            <p><a href="https://www.dshs.texas.gov/covid-19-coronavirus-disease-2019/texas-covid-19-data">New Confirmed Cases</a> data ranges from March 6, 2020 to May 10, 2023</p>
+        </header>
+        
+        <div class="container">
+            <div class="cat">
+              <a src="nyan cat.gif"></a>
+            </div>
+            <div class="map">
+                <div id="canvasdiv"><canvas id="canvas" style="display: none;"></canvas></div>
+                <div id="dateoverlay"></div>
+                <div id="totaloverlay"></div>
+            </div>
+        </div>
+    </body>
+</html>
+
